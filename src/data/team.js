@@ -4,9 +4,6 @@ import AleSticker from "../images/equipe/figurinhas/ale.png"
 import VeroPhoto from '../images/equipe/foto/vero-min.jpg'
 import VeroSticker from '../images/equipe/figurinhas/vero.png'
 
-import XelaPhoto from '../images/equipe/foto/xela-min.jpg'
-import XelaSticker from '../images/equipe/figurinhas/xela.png'
-
 import AndrePhoto from '../images/equipe/foto/andre-min.jpg'
 import AndreSticker from '../images/equipe/figurinhas/andre.png'
 
@@ -24,6 +21,9 @@ import ElvisSticker from "../images/equipe/figurinhas/elvis.png"
 
 import VeiaPhoto from '../images/equipe/foto/veia-min.jpg'
 import VeiaSticker from '../images/equipe/figurinhas/veia.png'
+
+// import IgorPhoto from '../images/equipe/foto/igor-min.jpg'
+import IgorSticker from '../images/equipe/figurinhas/igor.png'
 
 export default {
     veia: {
@@ -67,20 +67,6 @@ export default {
         ],
         photo: VeroPhoto,
         sticker: VeroSticker
-    },
-    xela: {
-        name: "Alex Gobbi",
-        nickname: "Xela",
-        business: "Support Team",
-        interests: [
-            "Comer Mc",
-            "Jogos Online",
-            "Pepsi Geladinha",
-            "Bolo de chocolate da Ju (his wife)",
-            "Almoço da Ju (his wife)"
-        ],
-        photo: XelaPhoto,
-        sticker: XelaSticker
     },
     andre: {
         name: "André Martins",
@@ -149,4 +135,18 @@ export default {
         photo: ElvisPhoto,
         sticker: ElvisSticker
     },
+    // igor: {
+    //     name: "Igor Wessel",
+    //     nickname: "Pirigor",
+    //     business: "Frontend Developer",
+    //     interests: [
+    //         "Aprender e ensinar",
+    //         "Festas",
+    //         "Música",
+    //         "Jogos indie",
+    //         "Javascript",
+    //     ],
+    //     photo: ElvisPhoto,
+    //     sticker: IgorSticker
+    // }
 }
