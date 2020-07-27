@@ -22,7 +22,7 @@ import ElvisSticker from "../images/equipe/figurinhas/elvis.png"
 import VeiaPhoto from '../images/equipe/foto/veia-min.jpg'
 import VeiaSticker from '../images/equipe/figurinhas/veia.png'
 
-// import IgorPhoto from '../images/equipe/foto/igor-min.jpg'
+import IgorPhoto from '../images/equipe/foto/igor-min.jpg'
 import IgorSticker from '../images/equipe/figurinhas/igor.png'
 
 export default {
@@ -135,18 +135,16 @@ export default {
         photo: ElvisPhoto,
         sticker: ElvisSticker
     },
-    // igor: {
-    //     name: "Igor Wessel",
-    //     nickname: "Pirigor",
-    //     business: "Frontend Developer",
-    //     interests: [
-    //         "Aprender e ensinar",
-    //         "Festas",
-    //         "Música",
-    //         "Jogos indie",
-    //         "Javascript",
-    //     ],
-    //     photo: ElvisPhoto,
-    //     sticker: IgorSticker
-    // }
+    igor: {
+        name: "Igor Wessel",
+        nickname: "Pirigor",
+        business: "Frontend Developer",
+        interests: [
+            "Jogar videogame",
+            "Tomar uma cerva",
+            "Sair",
+        ],
+        photo: IgorPhoto,
+        sticker: IgorSticker
+    }
 }
