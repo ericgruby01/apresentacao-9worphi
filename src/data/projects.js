@@ -1,6 +1,3 @@
-import logo_consig from '../images/projetos/consig/logo_consig.xyz.svg'
-import consig from '../images/projetos/consig/consig.png'
-
 /** ninecontrol */
 import logo_ninecontrol from '../images/projetos/ninecontrol/logo_ninecontrol.svg'
 import manual_ninecontrol from '../images/projetos/ninecontrol/manual-de-marca-ninecontrol.pdf'
@@ -85,10 +82,4 @@ export default {
         document: manual_nineproject,
         document_author: { label: "Eric Gruby", link: "/team/member/eric" }
     },
-    consig: {
-        name: 'Consig.XYZ',
-        description: 'Sistema anti-fraude para empresas de empréstimo consignado.',
-        logo: logo_consig,
-        prints: [consig]
-    }
 }
