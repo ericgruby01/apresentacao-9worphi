@@ -13,8 +13,11 @@ import KatheSticker from '../images/equipe/figurinhas/kathe.png'
 import PiriPhoto from "../images/equipe/foto/pirilampo-min.jpg"
 import PiriSticker from "../images/equipe/figurinhas/pirilampo.png"
 
-import BoliviaPhoto from "../images/equipe/foto/bolivia-min.jpg"
-import BoliviaSticker from "../images/equipe/figurinhas/bolivia.png"
+import CaioPhoto from "../images/equipe/foto/caio-min.jpg"
+import CaioSticker from "../images/equipe/figurinhas/caio.png"
+
+import ViniPhoto from "../images/equipe/foto/vini-min.jpg"
+import ViniSticker from "../images/equipe/figurinhas/vini.png"
 
 import ElvisPhoto from "../images/equipe/foto/elvis-min.jpg"
 import ElvisSticker from "../images/equipe/figurinhas/elvis.png"
@@ -34,8 +37,7 @@ export default {
             "Bifinhos",
             "Uivar pro nada",
             "Sorrir com o único dente que ela tem",
-            "Cavar",
-            { label: "Ganhar carinho do Bolívia", link: "/team/member/helder" }
+            "Cavar"
         ],
         photo: VeiaPhoto,
         sticker: VeiaSticker
@@ -110,17 +112,6 @@ export default {
         photo: PiriPhoto,
         sticker: PiriSticker
     },
-    helder: {
-        name: "Helder Ferrari",
-        nickname: "Bolívia",
-        business: "Backend Developer/Information Security Analyst",
-        interests: [
-            "Guitarrista de quarto",
-            "Gamer nas horas vagas"
-        ],
-        photo: BoliviaPhoto,
-        sticker: BoliviaSticker
-    },
     eric: {
         name: "Eric Gruby",
         nickname: "Elvis",
@@ -146,5 +137,34 @@ export default {
         ],
         photo: IgorPhoto,
         sticker: IgorSticker
+    },
+    caio: {
+        name: "Caio Matheus",
+        nickname: "Senhor Kaioh",
+        business: "Backend Developer",
+        interests: [
+            "Fifinha",
+            "Football Manager",
+            "Dormir",
+            "Comer",
+            "Dormir 👍",
+        ],
+        photo: CaioPhoto,
+        sticker: CaioSticker
+    },
+    vini: {
+        name: "Vinícius de Oliveira",
+        nickname: "Vini",
+        business: "Backend Developer",
+        interests: [
+            "🐘 PHP",
+            "🕹 Tekken",
+            "📖 Animes/Mangás",
+            "🎲 RPG de mesa",
+            "🐶 Cachorros",
+            "🎼 Música"
+        ],
+        photo: ViniPhoto,
+        sticker: ViniSticker
     }
 }
