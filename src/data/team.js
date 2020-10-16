@@ -28,6 +28,9 @@ import VeiaSticker from '../images/equipe/figurinhas/veia.png'
 import IgorPhoto from '../images/equipe/foto/igor-min.jpg'
 import IgorSticker from '../images/equipe/figurinhas/igor.png'
 
+import JoaoPhoto from '../images/equipe/foto/joao-min.jpg'
+import JoaoSticker from '../images/equipe/figurinhas/joao.png'
+
 export default {
     veia: {
         name: "Véia",
@@ -166,5 +169,19 @@ export default {
         ],
         photo: ViniPhoto,
         sticker: ViniSticker
+    },
+    joao: {
+        name: "João Vitor",
+        nickname: "---",
+        business: "Backend Developer",
+        interests: [
+            "Jogar",
+            "Assistir Série",
+            "Escutar música",
+            "Dormir",
+            "Aprender algo novo"
+        ],
+        photo: JoaoPhoto,
+        sticker: JoaoSticker
     }
 }
