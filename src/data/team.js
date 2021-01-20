@@ -13,6 +13,9 @@ import KatheSticker from "../images/equipe/figurinhas/kathe.png";
 import CarolFoto from "../images/equipe/foto/carol-min.jpg";
 import CarolSticker from "../images/equipe/figurinhas/carol.png";
 
+import RafaelFoto from "../images/equipe/foto/rafael-min.jpg";
+import RafaelSticker from "../images/equipe/figurinhas/rafael.png";
+
 import PiriPhoto from "../images/equipe/foto/pirilampo-min.jpg";
 import PiriSticker from "../images/equipe/figurinhas/pirilampo.png";
 
@@ -30,6 +33,9 @@ import VeiaSticker from "../images/equipe/figurinhas/veia.png";
 
 import IgorPhoto from "../images/equipe/foto/igor-min.jpg";
 import IgorSticker from "../images/equipe/figurinhas/igor.png";
+
+import FilipePhoto from "../images/equipe/foto/filipe-min.jpg";
+import FilipeSticker from "../images/equipe/figurinhas/filipe.png";
 
 import JoaoPhoto from "../images/equipe/foto/joao-min.jpg";
 import JoaoSticker from "../images/equipe/figurinhas/joao.png";
@@ -89,6 +95,15 @@ export default {
     photo: KatheFoto,
     sticker: KatheSticker,
   },
+  rafael: {
+    name: "Rafael Zotz",
+    nickname: "Zotz",
+    business: "Support Team",
+    interests: ["Família", "Fotografia", "Motociclismo", "Viagens"],
+    role: "Suporte",
+    photo: RafaelFoto,
+    sticker: RafaelSticker,
+  },
   carol: {
     name: "Carol Rudniak",
     nickname: "Carol",
@@ -106,7 +121,7 @@ export default {
   },
   caio: {
     name: "Caio Matheus",
-    nickname: "Senhor Kaioh",
+    nickname: "Alek",
     business: "Backend Developer",
     interests: ["Fifinha", "Football Manager", "Dormir", "Comer", "Dormir 👍"],
     role: "Backend",
@@ -131,7 +146,7 @@ export default {
   },
   joao: {
     name: "João Vitor",
-    nickname: "---",
+    nickname: "Jão, BOT, Dow Jones, Coronel Jesuíno",
     business: "Backend Developer",
     interests: [
       "Jogar",
@@ -182,6 +197,21 @@ export default {
     role: "Frontend",
     photo: IgorPhoto,
     sticker: IgorSticker,
+  },
+  filipe: {
+    name: "Filipe Sousa",
+    nickname: "Duff",
+    business: "Backend Jr.",
+    interests: [
+      "Musica",
+      "Fotografia",
+      "Apertar os gatos",
+      "Rever sempre os mesmos filmes",
+      "Comer a comida da Katy",
+    ],
+    role: "Backend",
+    photo: FilipePhoto,
+    sticker: FilipeSticker,
   },
 
   veia: {
