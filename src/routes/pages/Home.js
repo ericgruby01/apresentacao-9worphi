@@ -1,21 +1,21 @@
 import React from "react";
 import DocumentTitle from "react-document-title";
 
-/** nineworphi */
-import logo_nineworphi from "../../images/nineworphi.svg";
+/** NineWorphi */
+import logo_NineWorphi from "../../images/nineworphi.svg";
 
 const Home = () => (
   <>
-    <DocumentTitle title="9Worphi - Software Intelligence" />
+    <DocumentTitle title="NineWorphi - Software Intelligence" />
     <div className="text-center">
       <img
-        src={logo_nineworphi}
-        alt="Logo 9Worphi"
-        title="9Worphi Software Intelligence"
+        src={logo_NineWorphi}
+        alt="Logo NineWorphi"
+        title="NineWorphi software intelligence"
         className="logo"
       />
       <h1>
-        9Worphi{" "}
+        NineWorphi{" "}
         <a
           href="https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=nine%20worthy"
           alt="Link para a pronúncia"

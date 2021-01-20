@@ -16,7 +16,7 @@ const MemberComponent = () => {
 
   return (
     <div className="member">
-      <DocumentTitle title={`9Worphi - ${member.name}`} />
+      <DocumentTitle title={`NineWorphi - ${member.name}`} />
       <div className="foto">
         <img src={member.photo} alt={member.name} />
       </div>

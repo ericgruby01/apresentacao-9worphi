@@ -25,7 +25,7 @@ const ProjectComponent = () => {
 
   return (
     <div className="project">
-        <DocumentTitle title={`9Worphi - ${project.name}`} />
+        <DocumentTitle title={`NineWorphi - ${project.name}`} />
       <div className="logo">
         <img src={project.logo} alt={project.name} title={project.name} />
       </div>

@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <>
-      <DocumentTitle title={`9Worphi - Projetos`} />
+      <DocumentTitle title={`NineWorphi - Projetos`} />
       <ul className="projects">
         {projects.map((id) => {
           const project = getProjects[id];
