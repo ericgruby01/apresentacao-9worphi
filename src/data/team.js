@@ -111,8 +111,8 @@ export default {
     interests: [
       "Praia",
       "Sol",
-      "Encher o saco/ser sarna",
-      "Falar termos publicitários que ninguém entende",
+      "Meditação/Óleo Essencial",
+      "Vocabulário Marqueteiro",
       "Viajar",
     ],
     role: "Marketing",
