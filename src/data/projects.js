@@ -49,14 +49,14 @@ export default {
         document: manual_ninecontrol,
         document_author: { label: "Thiago Sol", link: "/team/member/thiago" }
     },
-    lusofix: {
-        name: 'Lusofix',
-        description: 'Plataforma marketplace para prestadores de serviços focado no mercado português.',
-        logo: logo_lusofix,
-        prints: [lusofix_1, lusofix_2, lusofix_3],
-        document: manual_lusofix,
-        document_author: { label: "Thiago Sol", link: "/team/member/thiago" }
-    },
+    // lusofix: {
+    //     name: 'Lusofix',
+    //     description: 'Plataforma marketplace para prestadores de serviços focado no mercado português.',
+    //     logo: logo_lusofix,
+    //     prints: [lusofix_1, lusofix_2, lusofix_3],
+    //     document: manual_lusofix,
+    //     document_author: { label: "Thiago Sol", link: "/team/member/thiago" }
+    // },
     nineskins: {
         name: 'NineSkins',
         description: 'Plataforma de negociação de skins para jogos diversos.',

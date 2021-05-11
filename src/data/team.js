@@ -19,9 +19,6 @@ import RafaelSticker from "../images/equipe/figurinhas/rafael.png";
 import PiriPhoto from "../images/equipe/foto/pirilampo-min.jpg";
 import PiriSticker from "../images/equipe/figurinhas/pirilampo.png";
 
-import CaioPhoto from "../images/equipe/foto/caio-min.jpg";
-import CaioSticker from "../images/equipe/figurinhas/caio.png";
-
 import ViniPhoto from "../images/equipe/foto/vini-min.jpg";
 import ViniSticker from "../images/equipe/figurinhas/vini.png";
 
@@ -118,15 +115,6 @@ export default {
     role: "Marketing",
     photo: CarolFoto,
     sticker: CarolSticker,
-  },
-  caio: {
-    name: "Caio Matheus",
-    nickname: "Alek",
-    business: "Backend Developer",
-    interests: ["Fifinha", "Football Manager", "Dormir", "Comer", "Dormir 👍"],
-    role: "Backend",
-    photo: CaioPhoto,
-    sticker: CaioSticker,
   },
   vini: {
     name: "Vinícius de Oliveira",
