@@ -7,6 +7,9 @@ import VeroSticker from "../images/equipe/figurinhas/vero.png";
 import AndrePhoto from "../images/equipe/foto/andre-min.jpg";
 import AndreSticker from "../images/equipe/figurinhas/andre.png";
 
+import AlessandraPhoto from "../images/equipe/foto/alessandra-min.jpg";
+import AlessandraSticker from "../images/equipe/foto/alessandra-min.jpg";
+
 import KatheFoto from "../images/equipe/foto/kathe-min.jpg";
 import KatheSticker from "../images/equipe/figurinhas/kathe.png";
 
@@ -100,6 +103,15 @@ export default {
     role: "Suporte",
     photo: RafaelFoto,
     sticker: RafaelSticker,
+  },
+  alessandra: {
+    name: "Alessandra Menck",
+    nickname: "Ale",
+    business: "Support Team",
+    interests: ["Pets", "Família", "Natureza", "Viajar", "Novas amizades"],
+    role: "Suporte",
+    photo: AlessandraPhoto,
+    sticker: AlessandraSticker
   },
   carol: {
     name: "Carol Rudniak",
